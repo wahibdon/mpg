@@ -1,0 +1,777 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 300 1.125em/1.38 'Open Sans';
+  color: rgb(243, 243, 243);
+}
+
+.address {
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 80%;
+  height: 25px;
+  margin: 8px 0 0 10%;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(243, 243, 243);
+}
+
+.billboards {
+  display: block;
+  width: 100%;
+  margin: 25px auto 0;
+  font-size: 1.667em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.black {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+}
+
+.copyright {
+  float: left;
+  width: 307px;
+  min-height: 18px;
+  margin: 21px 0 0 10%;
+  font-size: 0.556em;
+  font-weight: 400;
+  line-height: 1.78;
+  color: rgb(241, 241, 241);
+}
+
+.created-by {
+  float: left;
+  width: 60px;
+  min-height: 18px;
+  font-size: 0.556em;
+  font-weight: 400;
+  line-height: 1.88;
+  text-align: right;
+  color: rgb(241, 241, 241);
+}
+
+.gray {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+
+.header-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 18;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background: url('../images/usmnt-wall.jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.header-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 19;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+
+.header-title {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  z-index: 22;
+  width: 385px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 29;
+  width: 259px;
+  height: 62px;
+  background-image: url('../images/logo-red.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.logo:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0.7;
+}
+
+.logo:active {
+  opacity: 0.25;
+}
+
+.map-img {
+  visibility: hidden;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 0;
+  width: 32.4166666666%;
+  height: 40px;
+  margin: -33px 0 0 57.58203%;
+  background: url('../images/map-placeholder.png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.menu {
+  top: 0;
+  height: 62px;
+}
+
+.menu .menu {
+  display: block;
+  position: absolute;
+  right: 120px;
+  z-index: 27;
+  width: 62px;
+  background-image: none, url('../images/menu.png');
+  background-repeat: repeat, no-repeat;
+  background-size: auto auto, contain;
+  background-position: left top, center center;
+  background-attachment: scroll, scroll;
+  opacity: 0.5;
+}
+
+.menu .menu:hover {
+  background: url('../images/menu-active.png'), none rgba(0, 0, 0, 0);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: center center, center center;
+  opacity: 1;
+}
+
+.menu .menu:active {
+  background-image: url('../images/menu-active.png'), none;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: center center, center center;
+  opacity: 0.8;
+}
+
+.ott-logo {
+  float: left;
+  width: 66.976744186%;
+  height: 18px;
+  margin-left: 4.8982599999%;
+  background-image: url('../images/ott-footer.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.our {
+  float: left;
+  width: 164px;
+  height: 110px;
+  min-height: 110px;
+  font-size: 4.444em;
+  font-weight: 800;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.our p {
+  margin-bottom: 1em;
+}
+
+.pages {
+  position: relative;
+  z-index: 17;
+  width: 99.9583333333%;
+  height: 456px;
+  margin: 0 auto;
+}
+
+.fleet,
+.pointofpurchase,
+.sports-stadium,
+.transit,
+.wallscapes,
+.window-floor {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.667em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.billboards:hover,
+.fleet:hover,
+.pointofpurchase:hover,
+.sports-stadium:hover,
+.transit:hover,
+.wallscapes:hover,
+.window-floor:hover {
+  background-color: rgb(236, 18, 26);
+  color: rgb(255, 255, 255);
+}
+
+.billboards:active,
+.fleet:active,
+.pointofpurchase:active,
+.sports-stadium:active,
+.transit:active,
+.wallscapes:active,
+.window-floor:active {
+  background-color: rgb(177, 14, 20);
+  color: rgb(255, 255, 255);
+}
+
+.see-the-power {
+  float: left;
+  width: 47.4940334128%;
+  min-height: 19px;
+  margin-top: 6px;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.seethepower {
+  position: absolute;
+  top: 243px;
+  left: 0;
+  right: 0;
+  z-index: 25;
+  width: 347px;
+  height: 34px;
+  margin: 0 auto;
+}
+
+.select-one {
+  width: 308px;
+  min-height: 42px;
+  margin: 37px auto 0;
+  font-size: 2.222em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.services {
+  float: right;
+  width: 379px;
+  height: 90px;
+  min-height: 78px;
+  margin-top: 10px;
+  background-color: rgb(236, 18, 26);
+  font-size: 4.444em;
+  font-weight: 800;
+  line-height: 1.08;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.signature {
+  float: right;
+  width: 215px;
+  height: 18px;
+  margin: 21px 9.91797% 0 0;
+}
+
+.upload {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 202px;
+  z-index: 28;
+  width: 62px;
+  height: 62px;
+  background-image: url('../images/upload.png'), none;
+  background-repeat: no-repeat, repeat;
+  background-size: contain, auto auto;
+  background-position: center center, left top;
+  background-attachment: scroll, scroll;
+  opacity: 0.5;
+}
+
+.upload:hover {
+  background: none, url('../images/upload-active.png') rgba(0, 0, 0, 0);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: center center, center center;
+  opacity: 1;
+}
+
+.upload:active {
+  background-image: none, url('../images/upload-active.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: center center, center center;
+  opacity: 0.8;
+}
+
+.watch {
+  display: block;
+  float: right;
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.96;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -ms-transition: all .2s;
+  transition: all .2s;
+}
+
+.watch:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  background-color: rgb(236, 18, 26);
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.watch:active {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  background-color: rgb(177, 14, 20);
+  color: rgb(230, 230, 230);
+}
+
+._container {
+  position: relative;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu-1 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+
+._container-1 {
+  z-index: 26;
+  height: 300px;
+  margin-top: 61px;
+}
+
+._container-2 {
+  z-index: 8;
+  height: 100px;
+  margin-top: 100px;
+}
+
+.services span {
+  background-color: rgb(235, 0, 255);
+}
+
+@media(max-width: 1050px) {
+  .black .signature {
+    width: 226px;
+    margin-right: 9.91518%;
+  }
+
+  .gray .address {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin-left: 0;
+    font-size: 0.889em;
+  }
+
+  .gray .map-img {
+    position: relative;
+    z-index: 0;
+    width: 46.0416666666%;
+    height: 137px;
+    margin-top: 45px;
+    margin-left: 57.58036%;
+  }
+
+  .menu {
+    right: 0;
+  }
+
+  .pages {
+    position: relative;
+    z-index: 17;
+  }
+
+  .signature .ott-logo {
+    margin-left: 4.888%;
+  }
+
+  ._container {
+    position: relative;
+  }
+
+  .menu-1 {
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .black-1 {
+    float: none;
+    clear: none;
+    margin-top: 42px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .gray-1 {
+    float: left;
+    height: 42px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  ._container .header-img-1,
+  ._container .header-img-overlay-1,
+  ._container .header-title-1,
+  ._container .seethepower-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container-1 {
+    z-index: 26;
+  }
+
+  ._container-2 {
+    z-index: 8;
+    height: 203px;
+  }
+}
+
+@media(max-width: 960px) {
+  body {
+    font-size: 1.125em;
+  }
+
+  .black .copyright {
+    margin-top: 20px;
+  }
+
+  .black .signature {
+    margin-top: 20px;
+    margin-right: 10%;
+  }
+
+  .gray .address {
+    position: relative;
+    z-index: 1;
+    margin-top: 106px;
+    font-size: 0.778em;
+    line-height: 1.68;
+  }
+
+  .gray .map-img {
+    visibility: visible;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 94px;
+    margin-top: -131px;
+    margin-left: 0;
+    background-size: cover;
+  }
+
+  .pages {
+    position: relative;
+    z-index: 17;
+  }
+
+  ._container {
+    position: relative;
+  }
+
+  ._container .header-img-1,
+  ._container .header-img-overlay-1,
+  ._container .header-title-1,
+  ._container .seethepower-1,
+  .menu-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .black-1 {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 7;
+    margin-top: -60px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  ._container .gray-1 {
+    position: relative;
+    z-index: 2;
+    height: 203px;
+  }
+
+  ._container-1 {
+    z-index: 26;
+  }
+
+  ._container-2 {
+    float: left;
+    clear: both;
+    z-index: 8;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media(max-width: 840px) {
+  .gray .address {
+    position: relative;
+    float: none;
+    z-index: 1;
+    height: 28px;
+    margin-top: 98px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .gray .map-img {
+    position: relative;
+    float: none;
+    clear: none;
+    z-index: 0;
+    height: 89px;
+    margin-top: -126px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header-title .our {
+    width: 124px;
+    height: 73px;
+    min-height: 66px;
+    margin-top: 3px;
+    font-size: 3.333em;
+  }
+
+  .header-title .services {
+    width: 306px;
+    height: 66px;
+    min-height: 60px;
+    font-size: 3.333em;
+  }
+
+  .pages {
+    position: relative;
+    z-index: 17;
+  }
+
+  ._container {
+    position: relative;
+  }
+
+  ._container .header-img-1,
+  ._container .header-img-overlay-1,
+  ._container .seethepower-1,
+  .menu-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .black-1 {
+    position: relative;
+    float: none;
+    clear: none;
+    z-index: 7;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .gray-1 {
+    position: relative;
+    float: none;
+    z-index: 2;
+    height: 134px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .header-title-1 {
+    left: 0;
+    right: 0;
+    width: 305px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container-1 {
+    z-index: 26;
+  }
+
+  ._container-2 {
+    float: none;
+    clear: none;
+    z-index: 8;
+    height: 194px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 640px) {
+  body {
+    font-size: 1.125em;
+  }
+
+  .black .copyright {
+    margin-top: 21px;
+    font-style: normal;
+    font-weight: 300;
+  }
+
+  .black .signature {
+    clear: both;
+    width: 205px;
+    margin-top: -18px;
+  }
+
+  .gray .address {
+    position: relative;
+    float: left;
+    z-index: 1;
+    margin-top: 109px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 0.667em;
+  }
+
+  .gray .map-img {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 0;
+    height: 100px;
+    margin-top: -137px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .header-title .our {
+    margin-top: 0;
+  }
+
+  .header-title .services {
+    clear: both;
+    margin-top: -66px;
+    margin-right: -0.23491%;
+  }
+
+  .pages {
+    position: relative;
+    z-index: 17;
+  }
+
+  .signature .created-by {
+    margin-left: 14px;
+  }
+
+  .signature .ott-logo {
+    width: 120px;
+    margin-left: 5.11433%;
+  }
+
+  ._container {
+    position: relative;
+  }
+
+  ._container .header-img-1,
+  ._container .header-img-overlay-1,
+  ._container .header-title-1,
+  ._container .seethepower-1,
+  .menu-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .black-1 {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 7;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  ._container .gray-1 {
+    position: relative;
+    float: left;
+    z-index: 2;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  ._container-1 {
+    z-index: 26;
+  }
+
+  ._container-2 {
+    z-index: 8;
+  }
+}
