@@ -1,0 +1,603 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 300 1.563em/1.38 'Open Sans';
+  color: rgb(0, 0, 0);
+}
+
+.gray p p {
+  margin-bottom: 1em;
+}
+
+.a-watling {
+  position: relative;
+  display: inline-block;
+  z-index: 39;
+}
+
+.address {
+  width: 80%;
+  height: 25px;
+  margin: 8px auto 0;
+  font-size: 0.72em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.member{
+  vertical-align: top;
+  cursor: pointer;
+  width: 200px;
+  margin-left: 10px;
+}
+.member:first-child{
+  margin-left: none;
+}
+.b-rayome {
+  position: relative;
+  display: inline-block;
+  z-index: 27;
+}
+
+.bev-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-bmiller.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.bev-miller {
+  position: relative;
+  display: inline-block;
+  clear: both;
+  z-index: 23;
+}
+
+.black {
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+
+.c-horton {
+  position: relative;
+  display: inline-block;
+  clear: both;
+  z-index: 35;
+}
+
+.contact-title {
+  float: left;
+  width: 348px;
+  height: 90px;
+  min-height: 78px;
+  margin-top: 10px;
+  background-color: rgb(61, 125, 218);
+  font-size: 3.2em;
+  font-weight: 800;
+  line-height: 1.08;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.copyright {
+  float: left;
+  width: 307px;
+  min-height: 18px;
+  margin: 21px 0 0 10%;
+  font-size: 0.4em;
+  font-weight: 400;
+  line-height: 1.78;
+  color: rgb(241, 241, 241);
+}
+
+.created-by {
+  float: left;
+  width: 60px;
+  min-height: 18px;
+  font-size: 0.4em;
+  font-weight: 400;
+  line-height: 1.88;
+  text-align: right;
+  color: rgb(241, 241, 241);
+}
+
+.cristante-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-5.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.david-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-davidmiller.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.david-miller {
+  position: relative;
+  display: inline-block;
+  z-index: 11;
+}
+
+.dawn-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-dawnmiller.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.dawn-miller {
+  position: relative;
+  display: inline-block;
+  z-index: 15;
+}
+
+.email {
+  width: 100%;
+  min-height: 38px;
+  margin: 278px auto 0;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(61, 125, 218);
+}
+
+.email:hover {
+  text-decoration: underline;
+  color: rgb(100, 151, 225);
+}
+
+.gray {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgb(222, 222, 222);
+}
+
+.header-img-overlay {
+  position: relative;
+  float: left;
+  z-index: 60;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+
+.header-title {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  z-index: 64;
+  width: 468px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.horton-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-horton.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.j-stephenson {
+  position: relative;
+  display: inline-block;
+  z-index: 43;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 68;
+  width: 259px;
+  height: 62px;
+  background-image: url('../images/logo-red.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.logo:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0.7;
+}
+
+.logo:active {
+  opacity: 0.25;
+}
+
+.lou-install-vid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 61;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background: url('../images/contact-header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.m-cristante {
+  position: relative;
+  display: inline-block;
+  z-index: 31;
+}
+
+.m-vanmeter {
+  display: inline-block;
+}
+
+.meet-team {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 54;
+  width: 52.7994791666%;
+  min-height: 57px;
+  margin: 75px 0 0 23.60026%;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.menu {
+  top: 0;
+  height: 62px;
+}
+
+.menu .menu {
+  display: block;
+  position: absolute;
+  right: 120px;
+  z-index: 66;
+  width: 62px;
+  background-image: none, url('../images/menu.png');
+  background-repeat: repeat, no-repeat;
+  background-size: auto auto, contain;
+  background-position: left top, center center;
+  background-attachment: scroll, scroll;
+  opacity: 0.5;
+}
+
+.menu .menu:hover {
+  background: url('../images/menu-active.png'), none rgba(0, 0, 0, 0);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: center center, center center;
+  opacity: 1;
+}
+
+.menu .menu:active {
+  background-image: url('../images/menu-active.png'), none;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: center center, center center;
+  opacity: 0.8;
+}
+
+.ott-logo {
+  float: left;
+  width: 66.976744186%;
+  height: 18px;
+  margin-left: 4.8982599999%;
+  background-image: url('../images/ott-footer.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.phone {
+  width: 100%;
+  min-height: 38px;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(61, 125, 218);
+}
+
+.phone:hover {
+  font-weight: 300;
+  text-decoration: underline;
+  color: rgb(100, 151, 225);
+}
+
+.email:active,
+.phone:active {
+  text-decoration: underline;
+  color: rgb(46, 94, 164);
+}
+
+.rayome-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-rayome.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.s-weining {
+  display: inline-block;
+  margin-left: 3.05408%;
+}
+
+.signature {
+  float: right;
+  width: 215px;
+  height: 18px;
+  margin: 21px 9.91797% 0 0;
+}
+
+.smith-img {
+  width: 100%;
+  height: 226px;
+  margin: 0 auto;
+  background-image: url('../images/circle-smith.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.smith-name {
+  width: 100%;
+  min-height: 38px;
+  margin: 8px auto 0;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.smith-title {
+  width: 100%;
+  min-height: 38px;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.stephenson-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-6.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.t-smith {
+  position: relative;
+  display: inline-block;
+  z-index: 19;
+  margin-left: 1.97266%;
+}
+
+.team-photos {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 53;
+  width: 80%;
+  height: auto;
+  margin: 68px 0 0 10%;
+  text-align: center;
+}
+
+.upload {
+  display: block;
+  position: absolute;
+  top: -723px;
+  right: 209px;
+  z-index: 67;
+  width: 62px;
+  height: 62px;
+  background-image: url('../images/upload.png'), none;
+  background-repeat: no-repeat, repeat;
+  background-size: contain, auto auto;
+  background-position: center center, left top;
+  background-attachment: scroll, scroll;
+  opacity: 0.5;
+}
+
+.upload:hover {
+  background: none, url('../images/upload-active.png') rgba(0, 0, 0, 0);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: center center, center center;
+  opacity: 1;
+}
+
+.upload:active {
+  background-image: none, url('../images/upload-active.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: center center, center center;
+  opacity: 0.8;
+}
+
+.us-title {
+  float: right;
+  width: 106px;
+  height: 110px;
+  min-height: 110px;
+  font-size: 3.2em;
+  font-weight: 800;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.vanmeter-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.watling-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-watling.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.weining-img {
+  float: left;
+  width: 100%;
+  height: 226px;
+  background-image: url('../images/circle-weining.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.bev-name,
+.cristante-name,
+.david-name,
+.dawn-name,
+.horton-name,
+.rayome-name,
+.stephenson-name,
+.vanmeter-name,
+.watling-name,
+.weining-name {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 38px;
+  margin-top: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.bev-title,
+.cristante-title,
+.david-title,
+.dawn-title,
+.horton-title,
+.rayome-title,
+.stephenson-title,
+.vanmeter-title,
+.watling-title,
+.weining-title {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 38px;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.work-copy {
+  float: left;
+  clear: both;
+  width: 66.3333333333%;
+  min-height: 154px;
+  margin: 18px 0 0 16.79948%;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.work-title {
+  float: left;
+  width: 52.7994791666%;
+  min-height: 60px;
+  margin: 41px 0 0 23.59896%;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.work-w-you {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 59;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(243, 243, 243);
+}
+
+._container {
+  position: relative;
+  width: 100%;
+}
+
+.menu-1 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 69;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+
+._container-1 {
+  z-index: 65;
+  height: 300px;
+  margin: 62px auto 0;
+}
+
+._container-2 {
+  float: left;
+  clear: both;
+  z-index: 7;
+  height: 100px;
+  margin-top: 100px;
+}
+
+.contact-title span {
+  background-color: rgb(235, 0, 255);
+}

@@ -1,0 +1,270 @@
+* {
+      position: relative;
+      font-family: 'Open Sans';
+      margin: 0; 
+      padding: 0;
+    }
+    body {padding-top: 62px;}
+    nav#persistant {
+      position: fixed;
+      top: 0;
+      background: black;
+      width: 100%;
+      height: 62px;
+      z-index: 100;
+    }
+    nav#persistant div {
+      position: relative;
+      width:960px;
+      margin: 0 auto;
+    }
+    h1 {
+      display: block;
+      background-image: url('../images/logo-red.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 259px;
+      height: 62px;
+      text-indent: -9999em;
+      margin: 0;
+    }
+    nav#persistant div > a {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    nav#persistant div > a:hover{
+      opacity: 1;
+    }
+    nav#persistant div > a > img {
+      width: 62px;
+      height: 62px;
+    }
+    nav#persistant ul{
+      text-align: center;
+    }
+    nav#persistant ul li{
+      display: inline-block;
+      list-style-type: none;
+      margin-left: 10px;
+      padding-bottom: 10px;
+      vertical-align: middle;
+      border-top: 10px solid #000;
+      border-bottom: 10px solid #000;
+      transition: all .2s;
+    }
+    nav#persistant ul li:hover{
+      border-bottom: 10px solid rgb(236, 18, 26);
+    }
+    nav#persistant ul li a{
+      text-decoration: none;
+      color: #fff;
+    }
+    nav#persistant ul li#homeLink, nav#persistant ul li#homeLink:hover{
+      border: none;
+    }
+    nav#persistant ul li#homeLink a{
+      display: block;
+      height: 62px;
+    }
+    header {
+      background-image: url('../images/header-lou.png');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 440px;
+    }
+    p#promoText{
+      font-size: 60px;
+      color: #fff;
+      text-align: center;
+      font-weight: 800;
+      line-height: 1.08;
+    }
+    p#promoText span{
+      display: inline-block;
+      background-color: rgb(236, 18, 26);
+      padding: 0 10px;
+      margin: 143px 0;
+    }
+    div#headerBotton{
+      position: relative;
+      margin-top: -90px;
+      text-align: center;
+      background-color: #ddd;
+      font-size: 25px;
+      z-index: 99;
+    }
+    div#headerBotton button{
+      margin: 22px 0;
+      width: 237px;
+      height: 46px;
+      border-radius: 5px;
+      background-color: rgb(255, 255, 255);
+      font-size: 1em;
+      font-weight: 600;
+      line-height: 1.36;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      transition: all .2s;
+      cursor: pointer;
+      border: none;
+    }
+    div#headerBotton button:hover{
+      color: #fff;
+      background-color: rgb(236, 18, 26);
+    }
+    div#video-slider{
+      height: 0;
+      width: 692px;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    div#video-slider video{
+      width: 692px;
+    }
+    h2#bigger{
+      font-size: 40px;
+      font-weight: normal;
+      text-align: center;
+      margin: 65px 0 55px 0;
+    }
+    div#sliders{
+      height: 300px;
+      overflow: hidden;
+    }
+    div#sliders div{
+      position: absolute;
+      width: 850px;
+      left: 50%;
+      margin-left: -425px;
+      overflow: auto;
+    }
+    div#sliders div img {
+      float: left;
+      width: 225px;
+      height: 225px;
+      margin-left: 100px;
+    }
+    div#sliders div h3{
+      font-size: 30px;
+      font-weight: 600;
+      margin-top: 35px;
+    }
+    div#sliders div p{
+      font-size: 25px;
+      font-weight: light;
+    }
+    div#slider2, div#slider3, div#slider4{
+      display: none;
+      top: 0;
+    }
+    h2#benefitsTitle{
+      text-align: center;
+      height: 150px;
+      font-size: 40px;
+      font-weight: normal;
+      background-color: #ccc;
+      line-height: 150px;
+      color: rgb(57, 118, 207);
+      vertical-align: middle;
+      cursor: pointer;
+      transition: all .2s;
+    }
+    h2#benefitsTitle:hover{
+      background-color: rgb(57, 118, 207);
+      color: #fff;
+    }
+    h2#benefitsTitle img{
+      display: block;
+      width: 45px;
+      margin: -40px auto 0 auto;
+      top: 0;
+    }
+    div#benefits{display: none;}
+    div#benefits div div{
+      overflow: auto;
+      text-align: center;
+      width: 960px;
+      margin: 0 auto;
+    }
+    div#benefits div:nth-child(even){
+      background-color: #ddd;
+    }
+    div#benefits div:nth-child(even) img{
+      float: right;
+      margin-left: 90px;
+      margin-right: 0;
+    }
+    div#benefits img{
+      float: left;
+      margin-right: 90px;
+      width: 350px;
+      height: 350px;
+    }
+    div#benefits h3{
+      font-weight: 600;
+      font-size: 30px;
+      margin-top: 80px;
+    }
+    div#benefits p{
+      font-weight: light;
+      font-size: 25px;
+    }
+    p#backToTop{
+      text-align: center;
+      cursor: pointer;
+    }
+    p#backToTop span{
+      background-color: #000;
+      color: #fff;
+      padding: 3px 20px;
+      border-radius: 3px;
+    }
+    footer p:first-child{
+      text-align: center;
+      background-color: #ddd;
+      font-size: 17px;
+      height: 40px;
+      line-height: 40px;
+      white-space: nowrap;
+    }
+    footer p:first-child span{
+      display: inline-block;
+      padding-right: 2%;
+    }
+    footer p:first-child span:last-child{
+      padding-right: 0;
+    }
+    footer p:last-child{
+      background-color: #000;
+      color: #fff;
+      font-size: 10px;
+      height: 60px;
+      text-align: center;
+      padding-top: 20px;
+    }
+    footer p:last-child span{
+      padding-right: 300px;
+    }
+    footer p:last-child img{
+      width: 142px;
+      height: auto;
+      vertical-align: middle;
+      padding-left: 40px;
+    }
+    #arrowLeft, #arrowRight {
+      position: absolute;
+      display: block;
+      top: 90px;
+      height: 60px;
+      width: 120px;
+      background-color: #d7d7d7;
+      opacity: .5;
+    }
+    #arrowLeft:hover, #arrowRight:hover{
+      opacity: 1;
+    }
+    #arrowLeft{left: 0;}
+    #arrowRight{right: 0;}

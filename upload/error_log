@@ -1,0 +1,5 @@
+[20-Dec-2014 21:32:53 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/ott/public_html/mpg/upload/uploadify.php on line 20
+[20-Dec-2014 21:36:03 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/ott/public_html/mpg/upload/uploadify.php on line 20
+[20-Dec-2014 21:36:29 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/ott/public_html/mpg/upload/uploadify.php on line 20
+[20-Dec-2014 21:37:52 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/ott/public_html/mpg/upload/uploadify.php on line 20
+[20-Dec-2014 21:38:21 UTC] PHP Warning:  strtolower() expects parameter 1 to be string, array given in /home/ott/public_html/mpg/upload/uploadify.php on line 20
