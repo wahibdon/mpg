@@ -30,9 +30,17 @@
       </ul>
     </div>
   </nav>
-  <div id="links" style="position: relative; top: 70px; z-index: 100; font-size: 14px; margin-left: 10px; margin-bottom: 50px;">
+  <div id="links" style="position: relative; top: 70px; z-index: 100; font-size: 14px; margin-left: 10px; margin-bottom: 50px; text-align: justify;">
     <style type="text/css">
-      #links a {text-decoration: underline;}
+      #links a{
+        display: inline-block;
+        text-decoration: underline;
+        color: #000;
+      }
+      #links span{
+        display: inline-block;
+        width: 100%;
+      }
     </style>
     <a href="/products">&lt; Products</a> | 
     <a href="/products/billboards/">Billboards</a> 
@@ -42,6 +50,7 @@
     <a href="/products/window-floor-graphics/">Window and Floor Graphics</a> 
     <a href="/products/sports-stadium/">Sports and Stadium</a> 
     <a href="/products/point-of-purchase/">Point-of-Purchase</a> 
+    <span></span>
   </div>
   <div class="billboard-img"></div>
   <div class="billboards-copy clearfix">

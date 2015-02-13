@@ -458,10 +458,11 @@ caption, th, td {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
 }
 blockquote, q {
   quotes: "" "";
+  font-style: italic;
 }
 a,
 a:hover,
