@@ -7,11 +7,8 @@ nav#persistant {
   z-index: 100;
   font-size: 16px;
   font-weight: 600;
-}
-nav#persistant div {
-  position: relative;
-  width:960px;
-  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
 }
 h1 {
   display: block;
@@ -24,20 +21,21 @@ h1 {
   text-indent: -9999em;
   margin: 0;
 }
-nav#persistant div > a {
+nav#persistant > a {
   position: absolute;
   right: 0;
   top: 0;
+  opacity: .5;
 }
-nav#persistant div > a:hover{
+nav#persistant > a:hover{
   opacity: 1;
 }
-nav#persistant div > a > img {
+nav#persistant > a > img {
   width: 62px;
   height: 62px;
 }
 nav#persistant ul{
-  text-align: center;
+  display: inline-block;
 }
 nav#persistant ul li{
   display: inline-block;

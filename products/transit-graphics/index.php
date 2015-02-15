@@ -17,18 +17,16 @@
 </head>
 <body class="body products-billboards clearfix">
   <nav id="persistant">
-    <div>
-      <!--<a href="#"><img id="menuButton" src="/images/menu.png" alt="menu" /></a>-->
-      <a href="/upload"><img src="/images/upload.png" alt="upload a file"/></a>
+    <!--<a href="#"><img id="menuButton" src="/images/menu.png" alt="menu" /></a>-->
+    <a href="/upload"><img src="/images/upload.png" alt="upload a file"/></a>
 
-      <ul>
-        <li><a href="/products">PRODUCTS</a></li>
-        <li><a href="/process">PROCESS</a></li>
-        <li id="homeLink"><h1><a href="/">MPG MEDIA</a></h1></li>
-        <li><a href="/results">RESULTS</a></li>
-        <li><a href="/contact">CONTACT</a></li>
-      </ul>
-    </div>
+    <ul>
+      <li><a href="/products">PRODUCTS</a></li>
+      <li><a href="/process">PROCESS</a></li>
+      <li id="homeLink"><h1><a href="/">MPG MEDIA</a></h1></li>
+      <li><a href="/results">RESULTS</a></li>
+      <li><a href="/contact">CONTACT</a></li>
+    </ul>
   </nav>
   <div id="links" style="position: relative; top: 70px; z-index: 100; font-size: 14px; margin-left: 10px; margin-bottom: 50px; text-align: justify;">
     <style type="text/css">
