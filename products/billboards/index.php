@@ -14,6 +14,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/mpg-jquery.js"></script>
   <link rel="stylesheet" href="/css/header-footer.css" />
+  <link rel="stylesheet" href="/css/product-pages.css" />
 </head>
 <body class="body products-billboards clearfix">
   <nav id="persistant">
@@ -56,9 +57,54 @@
     <div class="billboards-paragraph">Bigger is always better. This larger than life medium will demand an audience.</div>
   </div>
   <div class="gallery clearfix">
-    <div class="img-block1"></div>
-    <div class="img-block2"></div>
-    <div class="img-block3"></div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/college-st.jpg" />
+    </div>
   </div>
   <footer class="_container clearfix">
     <p><span>MPG Media Services</span><span>451 Baxter Avenue, Suite 200</span><span>Louisville, KY 40204</span><span>502.589.0042</span></p>
