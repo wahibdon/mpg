@@ -14,6 +14,8 @@
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/mpg-jquery.js"></script>
   <link rel="stylesheet" href="/css/header-footer.css" />
+  <script src="/js/product-pages.js"></script>
+  <link rel="stylesheet" href="/css/product-pages.css" />
 </head>
 <body class="body products-billboards clearfix">
   <nav id="persistant">
@@ -56,15 +58,45 @@
     <div class="billboards-paragraph">Target your customers from all angles. We offer graphics for every surface.</div>
   </div>
   <div class="gallery clearfix">
-    <div class="img-block1"></div>
-    <div class="img-block2"></div>
-    <div class="img-block3"></div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/benjamin-moore-1.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/benjamin-moore-2.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/cardinal-arena.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/harradura-elevator.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/mcdonalds.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/old-national.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/planet-fitness.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/suntan-city.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/vicki.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/window-floor/yuengling.jpg" />
+    </div>
   </div>
   <footer class="_container clearfix">
     <p><span>MPG Media Services</span><span>451 Baxter Avenue, Suite 200</span><span>Louisville, KY 40204</span><span>502.589.0042</span></p>
     <p><span>© Copyright MPG Media Services, 2014. All Rights Reserved.</span> Created by <img src="/images/OTTweb_white.png" alt="Ott Communications"/></p>
   </footer>
-
+  <div id="bigImageHolder">
+    <a id="closeImage">X</a>
+    <img id="bigImage" />
+  </div>
   <script src="/js/jquery-min.js"></script>
   <script src="/js/rimages.js"></script>
 </body>

@@ -14,6 +14,8 @@
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/mpg-jquery.js"></script>
   <link rel="stylesheet" href="/css/header-footer.css" />
+  <script src="/js/product-pages.js"></script>
+  <link rel="stylesheet" href="/css/product-pages.css" />
 </head>
 <body class="body products-billboards clearfix">
   <nav id="persistant">
@@ -56,15 +58,51 @@
     <div class="billboards-paragraph">Be your own #1 fan! Coat your campus in school pride, or embellish your special event, with an assortment of customized options.</div>
   </div>
   <div class="gallery clearfix">
-    <div class="img-block1"></div>
-    <div class="img-block2"></div>
-    <div class="img-block3"></div>
+    <div class="img-block">
+      <img src="/images/products/stadium/belterra-bleachers.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/cardinal-footbal-1.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/cardinal-stadium-1.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/cardinal-stadium-2.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/cardinal-stadium-3.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/cardinal-stadium-4.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/louisville-banner-1.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/louisville-banner-2.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/panthers.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/usmnt-walls.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/wesleyan-hall.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/stadium/women-soccer.jpg" />
+    </div>
   </div>
   <footer class="_container clearfix">
     <p><span>MPG Media Services</span><span>451 Baxter Avenue, Suite 200</span><span>Louisville, KY 40204</span><span>502.589.0042</span></p>
     <p><span>© Copyright MPG Media Services, 2014. All Rights Reserved.</span> Created by <img src="/images/OTTweb_white.png" alt="Ott Communications"/></p>
   </footer>
-
+  <div id="bigImageHolder">
+    <a id="closeImage">X</a>
+    <img id="bigImage" />
+  </div>
   <script src="/js/jquery-min.js"></script>
   <script src="/js/rimages.js"></script>
 </body>

@@ -14,6 +14,8 @@
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/mpg-jquery.js"></script>
   <link rel="stylesheet" href="/css/header-footer.css" />
+  <script src="/js/product-pages.js"></script>
+  <link rel="stylesheet" href="/css/product-pages.css" />
 </head>
 <body class="body products-billboards clearfix">
   <nav id="persistant">
@@ -56,15 +58,45 @@
     <div class="billboards-paragraph">Showcase any item with P.O.P. such as life-like standees and custom menu boards.</div>
   </div>
   <div class="gallery clearfix">
-    <div class="img-block1"></div>
-    <div class="img-block2"></div>
-    <div class="img-block3"></div>
+    <div class="img-block">
+      <img src="/images/products/pop/above-mantel.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/pop/bar-display.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/pop/belterras-fresh-express-1.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/pop/belterras-fresh-express-2.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/pop/mcdonalds-1.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/pop/mcdonalds-2.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/pop/suntan-city-1.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/pop/suntan-city-2.JPG" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/pop/suntan-city-3.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/pop/tandium.jpg" />
+    </div>
   </div>
   <footer class="_container clearfix">
     <p><span>MPG Media Services</span><span>451 Baxter Avenue, Suite 200</span><span>Louisville, KY 40204</span><span>502.589.0042</span></p>
     <p><span>© Copyright MPG Media Services, 2014. All Rights Reserved.</span> Created by <img src="/images/OTTweb_white.png" alt="Ott Communications"/></p>
   </footer>
-
+  <div id="bigImageHolder">
+    <a id="closeImage">X</a>
+    <img id="bigImage" />
+  </div>
   <script src="/js/jquery-min.js"></script>
   <script src="/js/rimages.js"></script>
 </body>

@@ -14,6 +14,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/mpg-jquery.js"></script>
   <link rel="stylesheet" href="/css/header-footer.css" />
+  <script src="/js/product-pages.js"></script>
   <link rel="stylesheet" href="/css/product-pages.css" />
 </head>
 <body class="body products-billboards clearfix">
@@ -29,7 +30,7 @@
       <li><a href="/contact">CONTACT</a></li>
     </ul>
   </nav>
-  <div id="links" style="position: relative; top: 70px; z-index: 100; font-size: 14px; margin-left: 10px; margin-bottom: 50px; text-align: justify;">
+  <div id="links" style="position: relative; top: 70px; z-index: 99; font-size: 14px; margin-left: 10px; margin-bottom: 50px; text-align: justify;">
     <style type="text/css">
       #links a{
         display: inline-block;
@@ -58,59 +59,62 @@
   </div>
   <div class="gallery clearfix">
     <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
+      <img src="/images/products/billboards/2782.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/4851.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/26877a.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/26891a.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/648002.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/circlek-aap-ar.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/billboards/circlek-aap-fw.jpg" />
     </div>
     <div class="img-block">
       <img src="/images/products/billboards/college-st.jpg" />
     </div>
     <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
+      <img src="/images/products/billboards/comfootable-sc.jpg" />
     </div>
     <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
+      <img src="/images/products/billboards/dsc02806.jpg" />
     </div>
     <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
+      <img src="/images/products/billboards/dscn8534.jpg" />
     </div>
     <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
+      <img src="/images/products/billboards/el-jimador.jpg" />
     </div>
     <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
+      <img src="/images/products/billboards/image.jpg" />
     </div>
     <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
+      <img src="/images/products/billboards/james-river-ss.jpg" />
     </div>
     <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
+      <img src="/images/products/billboards/new-circle-fn.jpg" />
     </div>
     <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
-    </div>
-    <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
-    </div>
-    <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
-    </div>
-    <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
-    </div>
-    <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
-    </div>
-    <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
-    </div>
-    <div class="img-block">
-      <img src="/images/products/billboards/college-st.jpg" />
+      <img src="/images/products/billboards/thorntons-nf.jpg" />
     </div>
   </div>
   <footer class="_container clearfix">
     <p><span>MPG Media Services</span><span>451 Baxter Avenue, Suite 200</span><span>Louisville, KY 40204</span><span>502.589.0042</span></p>
     <p><span>© Copyright MPG Media Services, 2014. All Rights Reserved.</span> Created by <img src="/images/OTTweb_white.png" alt="Ott Communications"/></p>
   </footer>
-
+  <div id="bigImageHolder">
+    <a id="closeImage">X</a>
+    <img id="bigImage" />
+  </div>
   <script src="/js/jquery-min.js"></script>
   <script src="/js/rimages.js"></script>
 </body>

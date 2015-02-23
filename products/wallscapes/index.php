@@ -14,6 +14,8 @@
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src="/js/mpg-jquery.js"></script>
   <link rel="stylesheet" href="/css/header-footer.css" />
+  <script src="/js/product-pages.js"></script>
+  <link rel="stylesheet" href="/css/product-pages.css" />
 </head>
 <body class="body products-billboards clearfix">
   <nav id="persistant">
@@ -56,15 +58,63 @@
     <div class="billboards-paragraph">These walls can talk. Wallscapes tower above urban areas for maximum exposure.</div>
   </div>
   <div class="gallery clearfix">
-    <div class="img-block1"></div>
-    <div class="img-block2"></div>
-    <div class="img-block3"></div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/do-the-flip.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/frozen-four.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/gj-houston-skydeck.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/hbo.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/herradura-1.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/herradura-4.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/herradura-dallas.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/jack-daniels-times-square.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/jack-daniels.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/jd-independence-dallas.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/jd-independence-denver.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/jd-independence-miami.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/jd-independence-sf.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/team-kwc.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/ul-self-adhesive-wall.jpg" />
+    </div>
+    <div class="img-block">
+      <img src="/images/products/wallscapes/usmnt-wall.jpg" />
+    </div>
   </div>
   <footer class="_container clearfix">
     <p><span>MPG Media Services</span><span>451 Baxter Avenue, Suite 200</span><span>Louisville, KY 40204</span><span>502.589.0042</span></p>
     <p><span>© Copyright MPG Media Services, 2014. All Rights Reserved.</span> Created by <img src="/images/OTTweb_white.png" alt="Ott Communications"/></p>
   </footer>
-
+  <div id="bigImageHolder">
+    <a id="closeImage">X</a>
+    <img id="bigImage" />
+  </div>
   <script src="/js/jquery-min.js"></script>
   <script src="/js/rimages.js"></script>
 </body>

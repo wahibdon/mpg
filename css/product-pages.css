@@ -5,62 +5,46 @@
   clear: both;
   z-index: 12;
   width: 100%;
+  height: auto;
   text-align: center;
   margin-top: 50px;
   background-color: rgb(230, 230, 230);
 }
 .img-block {
 	display: inline-block;
-  width: 15%;
-  height: 15%;
-  margin: 10px;
+	width: 15%;
+	margin: 10px;
+	vertical-align: top;
 }
 .img-block img {
 	width: 100%;
 	height: 100%;
 }
-
-.img-block2 {
-  float: left;
-  width: 25.5768229166%;
-  height: 307px;
-  min-height: 58px;
-  margin: 20px 0 0 1.69271%;
-  background: url('../images/jimador-bb.jpg') rgb(0, 0, 0);
-  background-repeat: no-repeat;
-  background-size: 429px auto;
-  background-position: center center;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  -ms-transition: all .3s;
-  transition: all .3s;
+#bigImageHolder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 86%;
+	max-height: 86vh;
+	margin: 7%;
+	z-index: 100;
+	overflow: hidden;
+	padding: 5px;
+	background: #fff;
+	border: 1px solid black;
 }
-
-.img-block3 {
-  float: left;
-  width: 25.5768229166%;
-  height: 307px;
-  min-height: 58px;
-  margin: 20px 0 0 1.53125%;
-  background: url('../images/planetfitness-bb.jpg') rgb(0, 0, 0);
-  background-repeat: no-repeat;
-  background-size: 429px auto;
-  background-position: center center;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  -ms-transition: all .3s;
-  transition: all .3s;
+#bigImage {
+	width: 100%;
 }
-
-.img-block1:hover,
-.img-block2:hover,
-.img-block3:hover {
-  background-size: 180% auto;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  -ms-transition: all .3s;
-  transition: all .3s;
+#closeImage {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: red;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
 }
