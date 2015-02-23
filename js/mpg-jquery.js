@@ -144,5 +144,19 @@ $(document).ready(function(e) {
 			});
 		});
     });
-    document.getElementById('productsVideo').play();
+    if (document.getElementById('productsVideo'))
+	    document.getElementById('productsVideo').play();
+	//    document.getElementById('productsVideo').play();
+	if(document.getElementById('ooh-vid')){
+		$('.close-video-window').click(function(){
+			$('.video-window').hide();
+			$('.go-dark').hide();
+		    document.getElementById('ooh-vid').pause();
+		});
+		$('.watch-video').click(function(){
+			$('.go-dark').show();
+			$('.video-window').show();
+		});
+	}
+
 });
