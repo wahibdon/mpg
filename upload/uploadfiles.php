@@ -27,7 +27,6 @@ body {
 					'timestamp' : '<?php echo $timestamp;?>',
 					'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
 				},
-				'swf'      : 'uploadify.swf',
 				'uploader' : 'uploadify.php'
 			});
 		});
