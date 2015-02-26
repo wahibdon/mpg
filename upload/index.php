@@ -58,6 +58,7 @@ body{
 	margin: 62px 0;
 	line-height: 1.38;
 	font-family: 'Open Sans';
+	background-color: #eee;
 }
 #uploadBox{
 	width: 400px;
@@ -91,7 +92,7 @@ body{
 	opacity: 0;
 	width: 100%;
 	border-radius: 5px;
-	background-color: #eee;
+	background-color: #ddd;
 	padding: 5px;
 	transition: all 1s;
 

@@ -1,2 +1,5 @@
 Options +Indexes
-#Require valid-user
+AuthType Basic
+AuthName "Uploaded Files"
+AuthUserFile /home/content/30/4465930/html/upload/files/.htpasswd
+Require valid-user
