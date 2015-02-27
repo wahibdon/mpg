@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
-  <title>products-billboards</title>
+  <title>Billboards | Products | MPG Media</title>
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400,300,600,800" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/standardize.css">
   <link rel="stylesheet" href="/css/products-billboards-grid.css">
@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/css/header-footer.css" />
   <script src="/js/product-pages.js"></script>
   <link rel="stylesheet" href="/css/product-pages.css" />
+  <link rel="icon" href="/images/favicon.png" type="image/png" />
 </head>
 <body class="body products-billboards clearfix">
   <nav id="persistant">
