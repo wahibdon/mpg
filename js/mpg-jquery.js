@@ -114,6 +114,7 @@ $(document).ready(function(e) {
 	      vs.animate({height:411}).removeClass('hidden');
 	      stp.animate({opacity: 0});
 	      $(this).text("Close the Video");
+	      document.getElementById('ooh-vid').play();
 	    } else { 
 	      vs.animate({height:0}).addClass('hidden');
 	      stp.animate({opacity: 1});
@@ -156,6 +157,7 @@ $(document).ready(function(e) {
 		$('.watch-video').click(function(){
 			$('.go-dark').show();
 			$('.video-window').show();
+		    document.getElementById('ooh-vid').play();
 		});
 	}
 
