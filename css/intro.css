@@ -178,6 +178,7 @@ body {
 .menu-dropdown {
   width: 100%;
   margin-top: 5%;
+  margin-bottom: 120px;
 }
 
 .menu-dropdown .logo {

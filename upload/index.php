@@ -2,6 +2,7 @@
 if ($_FILES['SelectedFile']){
 	$tmp = $_FILES['SelectedFile']['tmp_name'];
 	$file = preg_replace("/[\s\-_~,;:\[\]\(\)]/", '',strtolower($_FILES['SelectedFile']['name']));
+	echo $file;
 	$try = move_uploaded_file($tmp, "/home/content/30/4465930/html/upload/files/".$file);
 	if($try)
 		die();
@@ -35,7 +36,7 @@ function upload(){
 		var fileName = document.getElementsByClassName('fileName')[0];
 		fileName.innerHTML = file.files[0].name;
 	})
-	request.open('post', '/upload/test.php');
+	request.open('post', '/upload/index.php');
 	request.send(data);
 	document.getElementsByClassName('progressBox')[0].style.opacity = "1";
 }
