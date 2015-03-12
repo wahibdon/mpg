@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1.0">
   <title>Sports and Stadium | Products | MPG Media</title>
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400,300,600,800" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/standardize.css">
