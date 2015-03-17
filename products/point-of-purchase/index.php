@@ -91,7 +91,7 @@
   </div>
   <footer class="_container clearfix">
     <p><span>MPG Media Services</span><span>451 Baxter Avenue, Suite 200</span><span>Louisville, KY 40204</span><span>502.589.0042</span></p>
-    <p><span>© Copyright MPG Media Services, 2014. All Rights Reserved.</span> Created by <img src="/images/OTTweb_white.png" alt="Ott Communications"/></p>
+    <p><span>© Copyright MPG Media Services, 2014. All Rights Reserved.</span><img id="oaaa" src="/images/oaaa-logo.gif" alt="oaaa logo" />Created by <img src="/images/OTTweb_white.png" alt="Ott Communications"/></p>
   </footer>
   <div id="bigImageHolder">
     <a id="closeImage">X</a>

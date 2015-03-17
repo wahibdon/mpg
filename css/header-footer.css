@@ -83,10 +83,15 @@ footer p:last-child{
   font-size: 10px;
   height: 60px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 footer p:last-child span{
-  padding-right: 300px;
+  padding-right: 150px;
+}
+#oaaa {
+  height: 37px;
+  width: auto; 
+  padding: 0 150px 0 0;
 }
 footer p:last-child img{
   width: 142px;
